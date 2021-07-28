@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Example content
-date: 2012-02-07 00:00:00 +0000
+date: 2012-02-07T00:00:00.000+00:00
+menu:
+  main:
+    name: "+ PF"
+    weight: 2
 
 ---
 <div class="message">
