@@ -1,6 +1,7 @@
 ---
-label: "+ PF"
+label: Campos da pagina
 hide_body: false
+display_field: descricao
 fields:
 - name: descricao
   type: textarea
