@@ -29,3 +29,5 @@ fields:
   config: {}
   label: Galeria de imagens/fotos
   description: Adicione aqui as imagens e fotos que queira exibir
+pages:
+- content/posts/aparecendo.md
