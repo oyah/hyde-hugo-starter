@@ -1,4 +1,30 @@
 ---
 label: "+ PF"
 hide_body: false
-fields: []
+fields:
+- name: descricao
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Descricao
+  description: Digite aqui a descrição do projeto
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+  description: Adicione uma imagem ou logo para o projeto
+- name: tags
+  type: tag_list
+  default: []
+  label: TAGs
+  description: Adicione palavras-chaves para ajudar as pessoas a localizarem o projeto
+- name: galeria
+  type: image_gallery
+  config: {}
+  label: Galeria de imagens/fotos
+  description: Adicione aqui as imagens e fotos que queira exibir
